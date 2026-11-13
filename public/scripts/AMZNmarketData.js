@@ -32,8 +32,10 @@ async function getData() {
             div.style.backgroundColor = "#029400"; // Verde oscuro
         } else if (cambio24h >= 1) {
             div.style.backgroundColor = "#2A4729"; // Verde moco
+        } else if (cambio24h >= 0) {
+            div.style.backgroundColor = "#2c392c"; // Gris 
         } else if (cambio24h > -1) {
-            div.style.backgroundColor = "#232b23"; // Gris 
+            div.style.backgroundColor = "#2d2323"; // Gris 
         } else if (cambio24h > -2) {
             div.style.backgroundColor = "#391212"; // Vino
         } else if (cambio24h > -3) {
