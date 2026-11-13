@@ -1,0 +1,149 @@
+/* Variables de color estilo interfaz cripto/dark mode */
+:root {
+  --footer-bg: #0b0e11;
+  --footer-card: #181a20;
+  --footer-text: #848e9c;
+  --footer-text-light: #eaecef;
+  --footer-accent: #f0b90b; /* Amarillo Binance */
+  --footer-border: #23272e;
+}
+
+.site-footer {
+  background-color: var(--footer-bg);
+  color: var(--footer-text);
+  font-family: inherit;
+  font-size: 0.9rem;
+  border-top: 1px solid var(--footer-border);
+  margin-top: auto;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem 2rem;
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr;
+  gap: 2.5rem;
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
+
+/* Columnas y Tipografía */
+.footer-col h4 {
+  color: var(--footer-text-light);
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: var(--footer-text-light);
+  margin-bottom: 0.75rem;
+}
+
+.footer-desc, .disclaimer {
+  line-height: 1.5;
+  color: var(--footer-text);
+  font-size: 0.85rem;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-col ul li {
+  margin-bottom: 0.5rem;
+}
+
+.footer-col ul a {
+  color: var(--footer-text);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.footer-col ul a:hover {
+  color: var(--footer-accent);
+}
+
+/* Estilo de la tarjeta de crédito de la API */
+.api-credit-card {
+  background-color: var(--footer-card);
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid var(--footer-border);
+}
+
+.api-badge {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--footer-text-light);
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.binance-dot {
+  width: 8px;
+  height: 8px;
+  background-color: var(--footer-accent);
+  border-radius: 50%;
+  display: inline-block;
+  box-shadow: 0 0 8px rgba(240, 185, 11, 0.4);
+}
+
+.api-badge a {
+  color: var(--footer-accent);
+  text-decoration: none;
+}
+
+.api-badge a:hover {
+  text-decoration: underline;
+}
+
+.disclaimer {
+  font-size: 0.78rem;
+  opacity: 0.8;
+}
+
+/* Barra inferior */
+.footer-bottom {
+  border-top: 1px solid var(--footer-border);
+  padding: 1.25rem 1.5rem;
+}
+
+.footer-bottom-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.footer-social {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.footer-social a {
+  color: var(--footer-text);
+  text-decoration: none;
+  font-size: 0.85rem;
+}
+
+.footer-social a:hover {
+  color: var(--footer-text-light);
+}

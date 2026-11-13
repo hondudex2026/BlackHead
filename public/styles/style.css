@@ -1,0 +1,236 @@
+html, body {
+    width: 100%;
+    margin: 0;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    background-color: #fbfbfb;
+}
+
+header {
+    background-color: #f06400;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#BlackHead {
+    display: flex;
+}
+
+#icon {
+    height: 40px;
+    width: 220px;
+}
+
+#portada {
+    width: 100%;
+
+
+
+    background-image: url('https://d3i6fh83elv35t.cloudfront.net/static/2025/10/2025-10-09T144537Z_257358309_RC21XGAZEQNP_RTRMADP_3_USA-STOCKS-VALUATIONS-1024x683.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+
+    text-align: center;
+}
+
+
+#bannernegro {
+    background-color: black;
+    width: 100%;
+}
+
+#heatmapTop {
+    background-color: #1f1f17;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
+#heatmap {
+    background-color: #1f1f17;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+#empresas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: 500px;
+    width: 500px;
+
+
+}
+
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+    gap: 8px;
+    width: 100%; 
+    height: 100%; 
+}
+    
+.box {
+    background: rgb(0, 0, 0);
+    box-shadow: 0px 4px 10px rgb(0, 0, 0);
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.icon {
+    margin-top: -30px;
+    height: 100px;
+    width: auto;
+}
+
+#div7 .icon {
+    height: 180px;
+}
+
+#div1 .icon {
+    height: 150px;
+}
+
+#div5 .icon {
+    height: 150px;
+}
+
+#div8 .icon {
+    height: 100px;
+}
+
+#div9 .icon {
+    height: 130px;
+}
+
+#div11 .icon {
+    height: 120px;
+}
+
+
+.change {
+    color: white;
+    text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.99);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: -30px;
+}
+
+#div1 {
+    grid-column: span 3 / span 3;
+    grid-row: span 5 / span 5;
+    display: flex;
+    flex-direction: column;
+}
+
+#div4 {
+    grid-column: span 2 / span 2;
+    grid-row: span 3 / span 3;
+    grid-column-start: 4;
+    display: flex;
+    flex-direction: column;
+}
+
+#div5 {
+    grid-column: span 3 / span 3;
+    grid-row: span 4 / span 4;
+    grid-column-start: 1;
+    grid-row-start: 6;
+    display: flex;
+    flex-direction: column;
+}
+
+#div6 {
+    grid-column: span 2 / span 2;
+    grid-row: span 2 / span 2;
+    grid-column-start: 7;
+    grid-row-start: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+#div7 {
+    grid-column: span 3 / span 3;
+    grid-row: span 4 / span 4;
+    grid-column-start: 4;
+    grid-row-start: 4;
+    display: flex;
+    flex-direction: column;
+}
+
+#div8 {
+    grid-column: span 2 / span 2;
+    grid-row: span 4 / span 4;
+    grid-column-start: 7;
+    grid-row-start: 3;
+    display: flex;
+    flex-direction: column;
+}
+
+#div9 {
+    grid-row: span 3 / span 3;
+    grid-column-start: 6;
+    grid-row-start: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+#div10 {
+    grid-column: span 2 / span 2;
+    grid-row: span 3 / span 3;
+    grid-column-start: 7;
+    grid-row-start: 7;
+    display: flex;
+    flex-direction: column;
+}
+
+#div11 {
+    grid-column: span 3 / span 3;
+    grid-row: span 2 / span 2;
+    grid-column-start: 4;
+    grid-row-start: 8;
+    display: flex;
+    flex-direction: column;
+}
+       
+.title {
+    font-family: 'Figtree', sans-serif;
+    color: white;
+    font-weight: 900;
+    font-size: 45px;
+    text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.99);
+    
+}
+
+.title2 {
+    font-family: 'Figtree', sans-serif;
+    color: white;
+    font-weight: 900;
+    font-size: 45px;
+    
+}
+
+.subtitle2 {
+    font-family: 'Figtree', sans-serif;
+    color: rgba(186, 186, 186, 0.855);
+    font-weight: 400;
+    font-size: 25px;
+    margin-top: -25px;
+}
